@@ -64,7 +64,7 @@ body {
   }
   
   .openbtn:hover {
-    background-color: rgb(14, 239, 255);
+    background-color: #e02020;
    font-size: 30px;
    border-radius: 10px;
   }
@@ -86,7 +86,7 @@ body {
    
   }
   @keyframes hea {
-    0%{ background-image: url(../IMG/hea.png);}
+    0%{ background-image: url(../IMG/hea.png); }
     50%{
       background-image: url(../IMG/Langkawi.jpg);
     }
@@ -172,15 +172,15 @@ body {
 #use{
   color: aliceblue; font-size: 40px; margin-right: 10px;
 }
-  .menukp_bt:hover{cursor: pointer;  background-color:  rgb(56, 190, 190);}
+  .menukp_bt:hover{cursor: pointer;  background-color:  #e02020;}
     .menukp_bt{
       width: 200px;
       height: 50px;
        outline: none;
       position: relative;
       border: none;
-      border: 2px solid rgb(66, 227, 255);
-      background-color:  aqua;
+      border: 2px solid #e02020;
+      background-color:  #e02020;
      
       overflow: hidden;
       border-radius: 5px;
@@ -188,7 +188,7 @@ body {
     }
 
     /*button:before (attr data-hover)*/
-   .menukp_bt:hover:before{opacity: 1; transform: translate(0,0);    background-color:  aqua;}
+   .menukp_bt:hover:before{opacity: 1; transform: translate(0,0);    background-color: #e02020;}
    .menukp_bt:before{
       content: attr(data-hover);
       position: absolute;
@@ -201,7 +201,7 @@ body {
       opacity: 0;
       transform: translate(-100%,0);
       transition: all .3s ease-in-out;
-      background-color:  aqua;
+      background-color:  #e02020;
       color: #ffffff;
     }
       /*button div (button text before hover)*/
@@ -211,7 +211,7 @@ body {
         
         opacity: 0; transform: translate(100%,0)}
      .menukp_bt div{
-      background-color:  aqua;
+      background-color:  #e02020;
        color: #ffffff;
         text-transform: uppercase;
         letter-spacing: 3px;
@@ -219,6 +219,9 @@ body {
         font-size: .9em;
         transition: all .3s ease-in-out;
       }
+
+   
+
       #CONTEN1{
         height: auto;
         background-image: url(../IMG/Langkawi.jpg);
@@ -869,7 +872,29 @@ overflow: hidden;
   width: 100%;
   padding: 10px;
 }
+#lk{
+  color:  #e02020;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 5px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
 
+#myBtn:hover {
+background-color: #555;
+}
 @media only screen and (max-width: 600px) {
 
 
@@ -944,7 +969,7 @@ width: 50px;
       /* 1 */
 .size{
 
-  color: aqua;
+  color: #ecb828ba;
 }
 
 /* 2 */
