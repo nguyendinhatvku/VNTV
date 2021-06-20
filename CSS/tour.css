@@ -193,7 +193,7 @@ body {
   padding-left: 5px;
   padding-right: 5px;
   width: auto;
-  /* background-color: aqua; */
+  background-color: #21f3a87d;
  
   border: 2px solid white;
   /* font-family: 'Goblin One', cursive; */
@@ -355,8 +355,8 @@ padding: 0;
   color: white;
 }
 #imggg:hover{
-  transform: scale(1.2);
-  transition: 1s;
+  transform: scale(0.9);
+  transition: 2s;
 }
 .bottom-left {
 
