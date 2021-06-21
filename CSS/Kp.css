@@ -1,5 +1,5 @@
 body {
-    font-family: "Lato", sans-serif;
+   
   }
   
   .sidebar {
@@ -96,7 +96,7 @@ body {
   }
   
   .alert{
-    font-size: 16px; color: aliceblue; font-size: 22px; font-family: 'Goblin One', cursive;
+    font-size: 16px; color: aliceblue; font-size: 22px; 
   }
   
   /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
@@ -1057,160 +1057,3 @@ width: 50px;
     background-color: #f0f0f0;
     margin-left: 20px;
   }
-/* 2 */
-
-/* 2 */
-
-/* #COMTEN_img2{
-
-  height: 255px;
-  border-right: 1px solid white;
-  background-image: url(../IMG/doiche.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border-bottom: 1px solid white;
-}
-#COMTEN_img3{
-
-  height: 255px;
-  border-right: 1px solid white;
-  background-image: url(../IMG/be-vung-cao5-giaoduc_net_vn.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border-bottom: 1px solid white;
-}
-#COMTEN_img4{
-
-  height: 255px;
-  border-right: 1px solid white;
-  background-image: url(../IMG/phoviet.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border-bottom: 1px solid white;
-}
-#COMTEN_img5{
-
-  height: 255px;
-  border-right: 1px solid white;
-  background-image: url(../IMG/chuatamtruc.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border-bottom: 1px solid white;
-}
-#COMTEN_img6{
-
-  height: 255px;
-
-  background-image: url(../IMG/bienvnddep.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border-bottom: 1px solid white;
-}
-#COMTEN_img7{
-
-  height: 255px;
-  border-right: 1px solid white;
-  background-image: url(../IMG/banhcuonn.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border-bottom: 1px solid white;
-}
-#COMTEN_img8{
-
-  height: 255px;
-  border-right: 1px solid white;
-  padding: 0;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-
-   
-    border-bottom: 1px solid white;
-}
-#contenbut{
-    flex: 1;
-  width: 100%;
-  height: 100%;
-  outline: none;
-  border: none;
-  background-image: url(../IMG/KhamphaVN_Banner.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-#COMTEN_img9{
-  height: 255px;
-  border-right: 1px solid white;
-  background-image: url(../IMG/1_38.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-
-   
-    border-bottom: 1px solid white;
-}
-#COMTEN_img10{
-  height: 255px;
-  border-right: 1px solid white;
-  background-image: url(../IMG/travn.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-
-   
-    border-bottom: 1px solid white;
-}
-#COMTEN_img11{
-  height: 255px;
-  border-right: 1px solid white;
-  background-image: url(../IMG/rongdn.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-
-   
-    border-bottom: 1px solid white;
-}
-#COMTEN_img12{
-  height: 255px;
-  border-right: 1px solid white;
-  background-image: url(../IMG/nhung-hinh-anh-rat-khac-o-ha-noi-ma-nhieu-nguoi-bo-lo.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-
-   
-    border-bottom: 1px solid white;
-}
-#COMTEN_img13{
-  height: 255px;
-  border-right: 1px solid white;
-  background-image: url(../IMG/anhmienque.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-
-   
-    border-bottom: 1px solid white;
-}
-#COMTEN_img14{
-  height: 255px;
-  border-right: 1px solid white;
-  background-image: url(../IMG/Ao-Dai-3.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-
-   
-    border-bottom: 1px solid white;
-}
-#COMTEM_img14:hover{
-  transform: rotateY(180deg);
-} */
- 
