@@ -11,8 +11,10 @@
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="./CSS/Kp.css">
+ 
     <script
     src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-Flip/1.1.2/jquery.flip.js" ></script>
@@ -982,23 +984,49 @@
       <div class="logo1" style="  height: 50px;    background-color: rgba(0, 0, 0, 0.2);">
 
       <a class="text-white" href="https://mdbootstrap.com/" style="font-size:20px ;">      © 2020 Copyright: GUN</a>
-      <button class="float-right" onclick="topFunction()" id="myBtn" title="Go to top">TOP</button>
+      <button class="float-right" onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up fa-1x"></i></button>
+      <button class="float-right" id="myBtn1" title="Liên Hệ"><i class="fas fa-comments fa-2x"></i></button>
       </div>
       <!-- Copyright -->
       </footer>
       <!-- Footer -->
       </div>
+ 
+    
+      <div id='bodybox' >
+        <p class="float-right" style="color:white;"><button style="background: none;" id="exitchat"><i class="fas fa-times-circle fa-2x"></i></button></p>
+        <h1 >Dịch Vụ Tư Vấn Tổng Tài</h1>
 
-     
+        <br>
+        <div id='chatborder'>
+           
+            <p style="color: #000;" id="chatlog6" class="chatlog">&nbsp;</p>
+            <p id="chatlog5" class="chatlog">&nbsp;</p>
+            <p id="chatlog4" class="chatlog">&nbsp;</p>
+            <p id="chatlog3" class="chatlog">&nbsp;</p>
+            <p id="chatlog2" class="chatlog">&nbsp;</p>
+            <p id="chatlog1" class="chatlog">&nbsp;</p>
+            <input type="text" name="chat" id="chatbox" placeholder="Tổng Tài Tư Vấn Dịch Vụ" onfocus="placeHolder()">
+        </div>
+        <br>
+       
+    </div>
+    <br>
+    <br>
 
 
       <script>
-
+ $("#myBtn1").click(function(){
+  document.getElementById("bodybox").style.display="block" ;
+  });
+  $("#exitchat").click(function(){
+  document.getElementById("bodybox").style.display="none" ;
+  });
 
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-    if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
+    if (document.body.scrollTop > 1500 || document.documentElement.scrollTop > 1500) {
         document.getElementById("myBtn").style.display = "block";
     } else {
         document.getElementById("myBtn").style.display = "none";
